@@ -6,7 +6,7 @@ create table disasterMsg(
 	disasterMsg_location_id number(3) not null,
 	disasterMsg_location_name varchar2(15 char) not null,
 	disasterMsg_msg varchar2(300 char) not null
-);
+); 
 ------------------------------------------------------------------
 create table total(
 	total_date Date primary key,
